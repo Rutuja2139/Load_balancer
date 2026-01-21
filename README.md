@@ -30,24 +30,6 @@ It demonstrates how a traffic orchestrator can securely distribute client reques
 
 
 
-# Project Structure
-── client.py
-├── traffic_orchestrator.py
-├── server1.py
-├── server2.py
-├── server3.py
-├── generate_keys.py
-├── client_private.pem
-├── client_public.pem
-├── lb_private.pem
-├── lb_public.pem
-├── server1_private.pem
-├── server1_public.pem
-├── server2_private.pem
-├── server2_public.pem
-├── server3_private.pem
-├── server3_public.pem
-
 # Requirements
 
 - Python 3.x  
