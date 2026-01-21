@@ -1,8 +1,4 @@
-# create socket object
-# connect to server
-# send message
-# receive response
-# close connection
+
 import sys
 sys.path.insert(0, r"C:\Users\win 10\AppData\Roaming\Python\Python313\site-packages")
 
