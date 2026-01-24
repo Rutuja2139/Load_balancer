@@ -1,4 +1,4 @@
-# Secure TCP Load Balancer with Hybrid Encryption
+# Secure TCP Load Balancer
 
 This project implements a "secure multi-threaded TCP load balancer" with support for  
 Round Robin, Random, and Weighted Round Robin** scheduling algorithms, along with  
@@ -10,7 +10,7 @@ It demonstrates how a traffic orchestrator can securely distribute client reques
 
 # Features
 
-- Secure communication using **RSA-2048 with PKCS1_OAEP**
+- Secure communication using *RSA-2048 with PKCS1_OAEP*
 - Supports three load balancing algorithms:
   - Round Robin  
   - Random  
@@ -22,10 +22,10 @@ It demonstrates how a traffic orchestrator can securely distribute client reques
   - Each Backend Server
  
     
-- Client encrypts message using **Load Balancer public key**
-- Load Balancer decrypts using its **private key**
+- Client encrypts message using *Load Balancer public key*
+- Load Balancer decrypts using its *private key*
 - Load Balancer forwards encrypted data to selected backend server
-- Backend server decrypts using its **private key**
+- Backend server decrypts using its *private key*
 - Response is encrypted back to Load Balancer and then to Client
 
 
