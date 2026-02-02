@@ -10,3 +10,5 @@ def generate_and_save_keys(name):
 generate_and_save_keys("lb")
 generate_and_save_keys("client")
 generate_and_save_keys("server")
+generate_and_save_keys("server2")
+generate_and_save_keys("server3")
